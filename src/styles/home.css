@@ -1,0 +1,56 @@
+.presentation {
+    display: flex;
+    justify-content: center; /* Center the sections horizontally */
+    align-items: center; /* Center the sections vertically */
+    width: 100vw;
+    height: 90vh;
+}
+
+.introduction, .ctas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    background-color: white; /* Optional: for better visibility */
+    padding: 1rem; /* Optional: for spacing inside the sections */
+    box-sizing: border-box; /* Include padding in width/height calculations */
+    border: 1px solid #ddd; /* Optional: border for better visibility */
+    border-radius: 8px; /* Optional: rounded corners */
+}
+
+/* Ensure horizontal layout for the sections */
+.presentation > * {
+    margin: 0 1rem; /* Space between sections */
+}
+
+h1, h2, h3 {
+    margin: 0 0 1rem 0;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem; /* Space between button and other elements */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}

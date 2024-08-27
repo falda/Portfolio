@@ -1,0 +1,25 @@
+.nav {
+    background-color: #333;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-start;  /* Aligns the items to the right */
+  }
+  
+  .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .nav-item a:hover {
+    text-decoration: underline;
+  }
+  
